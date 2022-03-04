@@ -6,8 +6,9 @@
 This webpage was made for entertainment and educational use only. By making this webpage, I am completing the requirement in [The Odin Project](https://www.theodinproject.com/) to proceed to the next lesson.
 
 ### Photos and Information used
-1. [Hu Tao Hand .gif](https://yumenosakiacademy.tumblr.com/post/644250811663335424/im-hu-tao-wangsheng-funeral-parlor-director-let)
-2. [Wangsheng Funeral Parlor information](https://genshin-impact.fandom.com/wiki/Wangsheng_Funeral_Parlor)
+1. [Hu Tao Flower](https://www.redbubble.com/shop/hu+flowers)
+2. [Hu Tao Hand .gif](https://yumenosakiacademy.tumblr.com/post/644250811663335424/im-hu-tao-wangsheng-funeral-parlor-director-let)
+3. [Wangsheng Funeral Parlor information](https://genshin-impact.fandom.com/wiki/Wangsheng_Funeral_Parlor)
    
 > Note: In-game photos were used for the character staff and background
 (UID 821357486)
