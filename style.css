@@ -1,58 +1,75 @@
+/* FONTS */
+
 @import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Nanum+Myeongjo);
 
 /* GENERAL */
 
-html {
+* {
     box-sizing: border-box;
 }
+button {
+    border: 2px;
+    border-radius: 2em;
 
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+}
 body {
     font-family: 'Work Sans', sans-serif;
     flex: 1 0 auto;
     margin: 0;
 }
-
 img {
-    max-width: 100%
-    height: auto;
+    max-width: 100%;
+    max-height: 50%;
 }
 
 /* HEADER */
 .header {
     background-color: #49070c;
     color: white;
-    padding: 0 0.5em;
+    padding: 0 3em;
 
     
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .logo {
     font-size: 1em;
     font-weight: bold;
 }
-
 ul {
-    font-size: 0.9em;
+    font-size: 0.8em;
     list-style: none;
     display: flex;
-    gap: 1em;
+    gap: 0.7em;
+    align-items: center;
 }
-
 a {
     text-decoration: none;
     color: white;
 }
-
-a:hover {
-    color: #893d2a;
+li a:hover {
+    color: #8a5e53;
+}
+#sources {
+    background-color: #240f0c;
+    color: white;
+    padding: 5px 1em;
 }
 
 /* HOME */
 .home {
-    background-color: #66231a;
+    background-image: 
+    
+    linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(60, 7, 15, 0.527),
+      rgb(60, 7, 15)
+    ), url('./images/wangsheng.png');
+    background-size: cover;
     padding: 5em;
     color: white;
 
@@ -62,19 +79,59 @@ a:hover {
     flex: 0 0 auto;
     
 }
-
 .container-text {
+    margin-bottom: 2em;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+}
+.home .heading {
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+}
+.container-text .text {
+    padding-bottom: 1em;
+}
+#reservation {
+    background-color: #893d2a;
+    color: white;
+    padding: 5px 1em;
+    box-shadow: 1px 1px 3px 0.1px #240f0c;
+}
+#reservation a:hover {
+    color: #49070c;
+}
+.container-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-pic {
+    max-width: 500em;
+    border-style: solid;
+    border-color: #893d2a;
+    border-radius: 3em;
+    box-shadow: 2px 2px 5px 0.1px #240f0c;
 }
 
-.heading {
+/* STAFF */
+.staff {
+    background-color: rgb(60, 7, 15);
+    color: white;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.staff .heading {
     font-size: 1.5em;
     font-weight: bold;
+    padding-bottom: 0.2em;
 }
 
-.home-pic {
-    max-width: 454px;
-    
+.members {
+    display: flex;
+    flex-flow: column wrap;
 }
