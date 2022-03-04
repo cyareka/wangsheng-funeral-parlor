@@ -40,14 +40,15 @@ header {
     justify-content: space-between;
 }
 .logo {
-    font-size: 1em;
+    font-size: 1.2em;
+    font-family: 'Nanum Myeongjo';
     font-weight: bold;
 }
 ul {
     font-size: 0.8em;
     list-style: none;
     display: flex;
-    gap: 0.7em;
+    gap: 1em;
     align-items: center;
 }
 a {
